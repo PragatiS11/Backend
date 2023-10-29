@@ -4,7 +4,10 @@ const app = express();
 const cors = require("cors");
 app.use(cors());
 
-const swaggerUi = require("swagger-ui-express")
+const swaggerUi = require("swagger-ui-express");
+
+
+
 app.use(express.json());
 
 const options = {
